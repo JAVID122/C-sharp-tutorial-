@@ -1,24 +1,24 @@
-﻿namespace C_Sharp
-{
-    internal class ConstructorDemo
-    {
-        int x;
-        static int y;
-        static ConstructorDemo()
-        {
-            Console.WriteLine("static constructor is executed");
-        }
-        public ConstructorDemo()
-        {
-            Console.WriteLine("Non-static constructor is executed");
-        }
+﻿//namespace C_Sharp
+//{
+//    internal class ConstructorDemo
+//    {
+//        int x;
+//        static int y;
+//        static ConstructorDemo()
+//        {
+//            Console.WriteLine("static constructor is executed");
+//        }
+//        public ConstructorDemo()
+//        {
+//            Console.WriteLine("Non-static constructor is executed");
+//        }
         //Constructors are responsible for initailizing fiels /varaibles of a class ,
         // static constructors are used to initialize static fields of a class or to perform actions that need to be performed only once
 
         // static constructors are implicitly called when the class is loaded for the first time
 
-        static void Main()
-        {
+        //static void Main()
+        //{
             //ConstructorDemo obj1 = new ConstructorDemo();
             //ConstructorDemo obj2 = new ConstructorDemo();
             // here static constructor is called only once when the class is loaded for the first time
@@ -29,7 +29,18 @@
 
 
             // In the life cycle of a class ,static constructors  executes one and only one time whereas non-static constructors can execute multiple times depending on how many objects are created from the class
-            // non-static constructors executes for zero times of no instance are created 
-        }
-    }
-}
+            // non-static constructors executes for zero times of no instance are created
+
+            
+
+
+
+
+
+         
+            
+
+
+//        }
+//    }
+//}
