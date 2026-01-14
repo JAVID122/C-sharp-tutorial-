@@ -12,14 +12,14 @@ namespace C_Sharp
     internal class Access_Specifier3
     {
 
-        static void Main()
-        {
-            Acess_Speciers t = new Acess_Speciers();
-            //t.Test1(); // Private Method - Not Accessible
-            t.Test2(); // Public Method - Accessible
-            t.Test3(); // Internal Method - Accessible
-                       //t.Test4(); // Protected Method - Not Accessible
-            t.Test5(); // Protected Internal Method - Accessible (because we are in same assembly)
-        }
+        //static void Main()
+        //{
+        //    Acess_Speciers t = new Acess_Speciers();
+        //    //t.Test1(); // Private Method - Not Accessible
+        //    t.Test2(); // Public Method - Accessible
+        //    t.Test3(); // Internal Method - Accessible
+        //               //t.Test4(); // Protected Method - Not Accessible
+        //    t.Test5(); // Protected Internal Method - Accessible (because we are in same assembly)
+        //}
     }
 }

@@ -19,7 +19,7 @@ namespace C_Sharp {
     // Public: The members declared as public are accessible from anywhere in the application
     // Private: The members declared as private are accessible only within the class
     // Protected: The members declared as protected are accessible within the class and its derived classes
-    // Internal: The members declared as internal are accessible only within the same assembly
+    // Internal: The members declared as internal are accessible only within the same assembly or we can same project 
     // Protected Internal: The members declared as protected internal are accessible within the same assembly and from derived classes
     // Example:
     // public class MyClass
