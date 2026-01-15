@@ -12,14 +12,14 @@ namespace C_Sharp
         //public int variable2;
 
 
-        public Inheritance(int i) {
+        //public Inheritance(int i) {
 
             //Console.WriteLine("Parent class default constructor gets executed ");
 
-            Console.WriteLine("Parent class default constructor gets executed " + i);
+            //Console.WriteLine("Parent class default constructor gets executed " + i);
 
             // default behaviour of constructor is private so if we want this constructor to be exceeible to child class put public modifier before it
-        }
+        //}
 
         protected void Test1()
         {
