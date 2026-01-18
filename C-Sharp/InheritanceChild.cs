@@ -39,9 +39,9 @@ namespace C_Sharp
         //{
         //    Console.WriteLine("Test 3 gets printed");
         //}
-        static void Main()
-        {
-            //InheritanceChild t = new InheritanceChild(5);
+        //static void Main()
+        //{
+        //    //InheritanceChild t = new InheritanceChild(5);
             //    t.Test1(); // Protected Method - Accessible (because of inheritance)
             //    t.Test2(); // Public Method - Accessible
             //    t.Test3(); // Test 3 gets printed
@@ -173,6 +173,6 @@ namespace C_Sharp
 
             //}
 
-        }
+        //}
     }
 }
